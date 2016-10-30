@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>덱 제작기 v2</title>
+<meta charset="utf-8">
+<meta name="viewport">
+
+<link href="jquery-mobile/jquery.mobile.external-png-1.4.5.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.inline-png-1.4.5.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.theme-1.4.5.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet" type="text/css">
+
+<link href="deckbuilder.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui/jquery-ui.css" rel="stylesheet" type="text/css">
+
+<script src="jquery-mobile/jquery-2.1.4.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+
+<script src="canvas2image.js"></script>
+<script src="html2canvas.js"></script>
+
+<script src="ptcg-cards.js"></script>
+<script src="deckbuilder.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="MainPage">
+	<div data-role="header">
+		<div class="ui-bar">
+			<form>
+				쓰레기 카드 안보기 <input type="checkbox" data-role="flipswitch" name="FilterJunkCards" id="FilterJunkCards" checked="" data-mini="true">
+			</form>
+			<button class="ui-btn-right" onClick="javascript:CreateDeckImage()">생성</button>
+		</div>
+	</div>
+	
+	<div id="deckbuilder" class="ui-grid-a">
+		<div id="deckImage" class="ui-block-a"></div>
+		<canvas id="canvas" width="720" height="600" style="display:none"></canvas>
+		<div id="list" class="ui-block-b">
+			<input id="cardFinder" onClick="javascript:ClearFinder();">
+			<div id="listitem" data-role="collapsibleset" data-inset="true">
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

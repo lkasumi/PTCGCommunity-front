@@ -1,0 +1,10 @@
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\app\app.component.js
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\app\app.component.js.map
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\app\app.component.spec.js
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\app\app.component.spec.js.map
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\app\app.module.js
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\app\app.module.js.map
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\app\main.js
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\app\main.js.map
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\e2e\app.e2e-spec.js
+D:\work\repo\PTCGCommunity\PTCGCommunity\PTCGCommunity-front\e2e\app.e2e-spec.js.map

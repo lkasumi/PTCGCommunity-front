@@ -1,0 +1,68 @@
+#deckbuilder
+{
+}
+
+#deckImage
+{
+	width:780px;
+	height:650px;
+	border:0.25em solid rgb(232, 229, 229);
+	border-radius:10px;
+	margin:10px;
+	padding:10px;	
+}
+
+#list
+{
+	max-width:300px;
+	min-width:300px;
+	margin:10px;
+}
+
+#option
+{
+	margin:10px;
+}
+
+.grid
+{
+	min-width:120px;
+	vertical-align:middle;
+}
+
+.card
+{
+	display:inline-block;
+	margin:-3px 1px 0px 0px;
+}
+
+.ui-collapsible-content.ui-body-inherit
+{
+	padding:0px;
+}
+
+.ui-collapsible-set.ui-group-theme-inherit.ui-corner-all
+{
+	margin:0px;
+}
+
+.ui-listview.ui-listview-inset.ui-corner-all.ui-shadow
+{
+	margin:0px;
+}
+
+h1
+{
+	padding:0px!important;
+	font-size:10px;
+}
+
+h2
+{
+	padding:0px!important;
+}
+
+h3
+{
+	font-size:12px;
+}
